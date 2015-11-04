@@ -1,0 +1,33 @@
+﻿Project Notes: 1.22.2014
+
+1) Wiring
+* 5volt power
+* 3 LED's: Connected to Digital pins 4,3 and 2. Used resistors as usual.
+* HC-SR04 distance sensor wiring
+-(looking behind the sensor with the pins facing you and down, the two sensors facing away) Pins 1, 2, 3, 4.
+-Pin 1: GRND
+-Pin 2: Digital pin 1. (Interrupt)
+-Pin 3: Digital pin 0. (Trigger)
+-Pin 4: 5V Power
+
+2) 16x2 Display wiring.
+
+[Display Pin:  Netduino Pin]
+Pin 1: Ground
+Pin 2: 5+
+Pin 3: Pot center
+Pin 4: Digital 7
+Pin 5: Ground
+Pin 6: Digital 8
+Pin 7: not used
+Pin 8: not used
+Pin 9: not used
+Pin 10: not used
+Pin 11: Digital 9
+Pin 12: Digital 10
+Pin 13: Digital 11
+Pin 14: Digital 12
+Pin 15: 5+
+Pin 16: not used (red)
+Pin 17: not used (green)
+Pin 18: Ground (blue)
